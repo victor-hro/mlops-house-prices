@@ -108,22 +108,3 @@ Project Organization
     │       └── visualize.py
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.readthedocs.io
-
-
---------
-
-# Running Docker
-
-## Build Docker Image
-
-docker build-t ml-api --build-arg BASIC_AUTH_USERNAME_ARG={user} --build-arg BASIC_AUTH_PASSWORD_ARG={pwd} .
-
-## Run
-
-docker run -p 5000:5000 ml-api
-
-
-
-
-
-<p><small>Project based on the <a target="_blank" href="https://drivendata.github.io/cookiecutter-data-science/">cookiecutter data science project template</a>. #cookiecutterdatascience</small></p>
